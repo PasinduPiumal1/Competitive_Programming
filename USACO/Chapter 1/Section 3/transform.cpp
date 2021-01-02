@@ -21,7 +21,6 @@ int main() {
 
 	ofstream fout("transform.out");
 	ifstream fin("transform.in");
-
 	fin >> n;
 	a.resize(n), b.resize(n);
 	for(int i=0;i<n;i++) {
